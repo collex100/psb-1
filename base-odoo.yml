@@ -6,4 +6,4 @@
   # sudo: yes
 
   roles:
-    - { role: base.odoo}
+    - { role: sebalix.odoo}
