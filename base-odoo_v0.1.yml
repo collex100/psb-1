@@ -1,12 +1,9 @@
 ---
-- name: Install Odoo, Postgres, Nginx, and PHP-FPM
-  hosts: odoo-server
+- name: Install odoo
+  hosts: servers
   remote_user: root
   # remote_user: user
   # sudo: yes
 
   roles:
-    - nginx
-    - php
-    - postgres
-    - odoo
+    - { role: base.odoo}
