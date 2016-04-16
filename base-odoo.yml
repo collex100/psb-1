@@ -6,4 +6,5 @@
   # sudo: yes
 
   roles:
+    - { role: ansible-galaxy install ANXS.postgresql}
     - { role: sebalix.odoo}
