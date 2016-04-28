@@ -1,6 +1,8 @@
 ---
 
-- name: Klonirovat repozitoriy 
+- name: Klonirovat repozitoriy git clone -b 8.0 git@github.com:Pitstop-Business-GO/odoo-i18n_ru.git /home/odoo8
 
 
-- name: Kopirovat faily v katalog 
+- name: Kopirovat faily /home/odoo8/addons and /home/odoo8/openerp v katalog /home/odoo/odoo/server
+
+- name: Perezagruzka servera
