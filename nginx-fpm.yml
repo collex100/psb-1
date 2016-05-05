@@ -6,5 +6,5 @@
   # sudo: yes
 
   roles:
-    - { role: geerlingguy.nginx}
+    - { role: jdauphant.nginx}
     - { role: chusiang.php7}
